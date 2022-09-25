@@ -22,7 +22,6 @@ h6 {
   font-family: "Satisfy", sans-serif;
 }
 
-
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -132,6 +131,31 @@ h6 {
 /*--------------------------------------------------------------
 # Book a table button Menu
 --------------------------------------------------------------*/
+.search {
+  background: #ffffff;
+  border-color: #92a8d1;
+  color: #000000;
+  border-radius: 50px;
+  margin: 0 0 0 20px;
+  padding: 10px 25px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+.button {
+  background: #92a8d1;
+  border-color: #92a8d1;
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 10px 25px;
+  font-size: 13px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
 .book-a-table-btn {
   background: #92a8d1;
   color: #fff;
