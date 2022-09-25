@@ -665,7 +665,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: #e9edf5;
+  overflow: hidden;
 }
 
 .about .content {
@@ -966,7 +966,7 @@ section {
 # Specials
 --------------------------------------------------------------*/
 .specials {
-  overflow: hidden;
+  background: #e9edf5;
 }
 
 .specials .nav-tabs {
