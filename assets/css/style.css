@@ -1638,6 +1638,12 @@ section {
   letter-spacing: 3px;
 }
 
+#atasmenu .logo h1 a,
+#atasmenu .logo h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
 #atasmenu p {
   font-size: 15;
   font-style: italic;
