@@ -33,7 +33,7 @@
     <!-- ======= Footer ======= -->
     <footer id="footer">
       <div class="container">
-        <img src="assets/img/logo.png" width="100" height="100">
+          <img src="assets/img/logo.png" width="100" height="100">
       </div>
     </footer><!-- End Footer -->
 
@@ -49,11 +49,11 @@
         <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form">
           <div class="row">
             <div class="form-group mt-3">
-              <textarea class="form-control" name="username" rows="1" placeholder="Username"></textarea>
+			  <input type="text" class="form-control" placeholder="Username" name="uname" required>
               <div class="validate"></div>
             </div>
             <div class="form-group mt-3">
-              <textarea class="form-control" name="password" rows="1" placeholder="Password"></textarea>
+			  <input type="password" class="form-control" placeholder="Password" name="psw" required>
               <div class="validate"></div>
             </div>
           <div class="mb-3">
@@ -61,10 +61,10 @@
             <div class="error-message"></div>
             <div class="sent-message">Anda berhasil Sign In!</div>
           </div>
-          <div class="text-center"><button type="submit">Sign In</button></div>
-          <div class="text-center"><a href="signup.html">Belum memiliki akun?</a></div>
+          <!-- <div class="text-center"><button type="submit">Sign In</button></div>-->
+		  <div class="text-center"><a href="index.html" class="signin">Sign In</a></div>
+          <div class="text-center"><a href="signup.html" class="belum">Belum memiliki akun?</a></div>
         </form>
-
       </div>
     </section><!-- End Book A Table Section -->
 
