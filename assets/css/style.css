@@ -751,7 +751,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#92a8d1 50%, rgba(255, 176, 59, 0.4) 52%);
+  background: radial-gradient(#92a8d1 50%, rgba(146,168,209,1) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -792,7 +792,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(255, 176, 59, 0.7);
+  border: 5px solid rgba(146,168,209,1.3);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -909,7 +909,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Menu Section
+# Menu Section 0 auto 0 auto;
 --------------------------------------------------------------*/
 .menu #menu-flters {
   padding: 0;
